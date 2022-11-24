@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.urna {
+    margin: 32px 200px;
+    border: 3px solid #444;
+    display: flex;
+    justify-content: center;
+    background: rgb(235, 235, 235);
+    padding: 32px
+}
+
+.display-urna {
+    background: #fff;
+    border: 2px solid #444;
+    padding: 72px 200px;
+}
+
+.display-urna input {
+    padding: 24px;
+    border: none;
+    font-size: 16px;
+}
+.teclado-urna{
+    padding: 32px 64px;
+    background: #444;
+    margin: 0px 2rem;
+}
+
+.teclado {
+    padding: 8px;
+}
+
+.fileira {
+    display: flex;
+}
+.tecla {
+    margin: 2px;
+    padding: 12px;
+    background: #444;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-group {
+    display:flex;
+}
+
+.button-group .branco {
+    background: #fff;
+    border: none;
+    border-radius:6px;
+    cursor: pointer;
+    padding: 0 8px;
+    height: 2.5rem;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.button-group .corrige{
+    background: orange;
+    border: none;
+    border-radius:6px ;
+    padding: 0 8px;
+    cursor: pointer;
+    height: 2.5rem;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.button-group .confirma {
+    background: greenyellow;
+    padding: 0 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 3.5rem;
+    font-weight: 700;
+}
+
